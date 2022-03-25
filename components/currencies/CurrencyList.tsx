@@ -26,7 +26,7 @@ const CurrencyList: FC<CurrencyListProps> = ({ currencies, startGetCurrencies, s
     const listOfCurrencies = list?.map((currency: Currency) => {
         return (
             <Fragment key={currency?._id}>
-                <Link href={`/details/${currency.code}`} passHref>
+                <Link href={`/details/${currency?.code}`} passHref>
                     <div className={styles.data}>
                         <div className={`${styles.dataItem} ${styles.cursor}`}>{currency?.code}</div>
                         <div className={styles.cursor}>{currency?.country}</div>

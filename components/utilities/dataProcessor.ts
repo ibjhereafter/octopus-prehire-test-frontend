@@ -9,7 +9,7 @@ export const getCurrencyList = (currencyCollection: Currencies ) => {
 
     if (list?.length > 0) {
         const listToBeSorted = [...list];
-        sortedList = listToBeSorted.sort(compare);
+        sortedList = listToBeSorted?.sort(compare);
     }
 
     return sortedList;
