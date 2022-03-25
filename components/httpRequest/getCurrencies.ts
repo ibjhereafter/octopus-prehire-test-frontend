@@ -4,7 +4,7 @@ import { Dispatch } from "redux";
 import { Currencies } from "../types";
 import { getCurrencies, getCurrenciesError } from "../reducers/currenciesReducer";
 
-export const baseUrlLocal = `http://localhost:5000`;
+export const baseUrlLocal = `https://octopus-prehire-test-backend.herokuapp.com`;
 
 export const startGetCurrencies = (): Function => {
     return async (dispatch: Dispatch) => {
