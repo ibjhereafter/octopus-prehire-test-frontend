@@ -1,0 +1,33 @@
+.container {
+    width: 628px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+}
+
+.dataItem {
+    margin-bottom: 10px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.cursor:hover {
+    color: #0070f3;
+    text-decoration-line: underline;
+}
+
+

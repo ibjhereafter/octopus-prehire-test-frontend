@@ -1,0 +1,29 @@
+.container {
+    margin: 20px 0;
+}
+.input {
+    margin: 0 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.button {
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #0070f3;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 610px;
+}
+
+.error {
+    color: red;
+    text-decoration-line: underline;
+}
